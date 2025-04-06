@@ -1,0 +1,383 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{lmodern}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{pdflscape}
+\usepackage{siunitx}     % Pour les unités et symboles scientifiques
+\sisetup{
+    separate-uncertainty = true,  % Permet l'utilisation de \pm
+    uncertainty-separator = {\,\pm\,},  % Espacement autour de ±
+    inter-unit-product = \ensuremath{{}\cdot{}},
+}
+\usepackage{textgreek}   % Pour les symboles grecs (μ)
+\usepackage{booktabs}  % Pour de belles règles horizontales
+\usepackage{array}     % Pour personnaliser l'alignement
+\usepackage{caption} % Pour les légendes
+\usepackage{tabularx}
+\usepackage{threeparttable} % Pour les notes sous le tableau
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\title{Study of the morphofunctional signal of captivity on the microanatomy of a tarsal bone, the talus, in a wild ungulate, the wild boar (\textit{Sus scrofa})}
+\author{Roman Ocaña}
+\begin{document}
+\maketitle
+\tableofcontents
+\setcounter{tocdepth}{6}
+
+\begin{abstract}
+%réduire à 200 mots
+    Bones play a crucial role in animal locomotion, responding to mechanical stress. In
+many ungulates involved in the domestication process, captivity leads to a modification of the
+locomotor repertoire, potentially recorded in the internal structure of the bones. It is this non-heritable imprint that zooarchaeologists wish to use as new markers of the domestication
+process, complementing the knowledge gained from classical osteological markers of bone
+and tooth size reduction, which are linked to reproductive selection and genetic isolation. This
+preliminary study examines the impact of captivity on the microanatomy of the talus, a short
+bone devoid of muscular insertion, in wild boar (\textit{Sus scrofa}). The study is based on a comparison between groups with different mobility patterns (natural habitat, large enclosure and stabling) and archaeological wild boars from the Mesolithic period, before the arrival of agriculture in Europe. The study is based on 3D cartographies of compact bone thickness, virtual cross-sections, and quantitative parameters obtained from microtomographic scans of the talus of these specimens. While the thickness of the compact bone does not show variations
+associated with captivity, the specimens that have lived partially in captivity
+have denser tali with a looser weave of bone trabeculae. In addition, some Late Mesolithic
+specimens seem to show signs of captivity. Captivity therefore seems to be identifiable on the
+talus of wild boars, revealing the archaeological potential of this bone.
+\end{abstract}
+
+\section{Introduction}
+Domestication is an evolutionary process that can be defined as a multi-generational, mutualistic relationship, in which humans influence, intentionally or unintentionally, the reproduction, care and feeding of another non-human organism, causing changes in morphology, behaviour and/or physiology \cite{axelssonGenomicSignatureDog2013, kunzlWildMammalKept2003d, vigneOriginsAnimalDomestication2011d}. It is these modifications that differentiate domesticated from wild forms \cite{evinTestPaedomorphismDomestic2017r,zederPathwaysAnimalDomestication2012}.
+
+In the case of animal domestication, this process encompasses a wide range of situations since Late Pleistocene with the grey wolf \cite{lahtinenExcessProteinEnabled2021d} and the spread of domesticated animals during the Neolithic \cite{orlandoAnimauxSauvagesAnimaux2021j,vigneEarlyDomesticationFarming2015d,zederPathwaysAnimalDomestication2012}. The distinction between wild and domesticated forms can be complex because they can be sympatric \cite{evinPhenotypeAnimalDomestication2015g}, and domesticated animals can also return to the wild, a phenomenon known as feralization \cite{rowley-conwyDistinguishingWildBoar2012p}.
+
+Osteological markers have been used to reconstruct a important part of the history of animal domestication with the classic markers of reduced bone and tooth size \cite{payneComponentsVariationMeasurements1988d,priceArchaeologyPigDomestication2020r}. These phenotypical traits are part of domestication trends that are commonly referred to as ``domestication syndrome'', which include other phenotypic variations such as drooping ears, a curved tail and depigmentation of the skin and coat. These syndromes only appear after several generations of reproductive selection, which means that they cannot be used as morphological markers of the early stages of the domestication process \cite{belyaevDomesticationSilverFox1985d,cucchiAnimalDomesticationDistant2021,sanchez-villagraTamingNeuralCrest2016d}.
+
+Pig (\textit{Sus domesticus}) is one of the domesticated animals with the most of the phenotypical traits of the ``domestication syndrome'' \cite{sanchez-villagraTamingNeuralCrest2016d}. This last ones and the wild boars (\textit{Sus scrofa}) have been sympatric over most of their range and could have hybridized over millennia, which makes the morphological distinction between them more complex than just a separation between wild and domesticated \cite{bogaardReconsideringDomesticationProcess2021v,grovesChapter51Eurasian1993d,longIntroducedMammalsWorld2003d}.
+
+Methodological research (ANR DOMEXP) has been carried out on the wild boar model to test the hypothesis that bone plasticity (i.e., the ability of bone to shape and remodel according to the biomechanical constraints of the environment, which is also known as Wolff's law \cite{wolffLawBoneRemodelling1986,ruffWhosAfraidBig2006t}) would enable to record the reduction in space for mobility in a wild population, prior to any reproductive selection phenomenon. Bone plasticity would provide a quantitative marker of the reduction in space available for the mobility of wild animals, and therefore of the intensification of relations between wild animals and human societies, beyond the reach of conventional morphometric approaches in archaeozoology.
+
+To test this hypothesis, the DOMEXP project used a genetically homogeneous wild boar (\textit{Sus scrofa}) population to control the genetic and environmental factors influencing skeletal variation. From this populations, 24 six-month-old piglets were captured after weaning to be reared until the age of two years under two mobility reduction regimes. Geometric morphometrics’ analyses have provided proof of concept that this mobility reduction in a wild ungulate population could leave morphometric prints on skulls \cite{neauxHowChangesFunctional2021t} and calcaneus \cite{harbersMarkCaptivityPlastic2020t}. Microanatomical investigations have also revealed changes in the 3D topography of the cortical thickness in the humeral shaft \cite{harbersInvestigatingImpactCaptivity2020ab}.
+
+Following the results of these previous studies, a study of the bone microanatomy of the calcaneus was carried out \cite{cottereauCanGrowthCaptivity2023ab}. Together with the talus, the calcaneus forms the first row of the tarsus. These bones are frequently found in archaeological contexts due to their high compactness; the talus is rarely destroyed by carnivores \cite{brainHuntersHuntedIntroduction1983} and is resistant to hydraulic transport \cite{barrPaleoenvironmentsShunguraFormation2015t,behrensmeyerTaphonomicEcologicInformation1978b}. These two bones both show functional signals, as they are particularly sensitive to changes in mobility, notably due to their anatomical position at the level of the tarsal joint \cite{alexanderPrinciplesLigamentFunction1987,barrFunctionalMorphologyBovid2014o,etienneInfluenceMassTarsus2020v,lanyonAnalysisSurfaceBone1973c,schaefferOriginMammalianOrdinal1948c,skedrosModelingRemodelingDeveloping2001b,suLoadingConditionsCortical1999}.
+
+Although Cottereau \textit{et al.} (2023) suggested that the microanatomy of the calcaneus of the wild boar did not strongly reflect the regime of mobility regime, the impact of captivity on a short bone subject to predominantly compressive forces has not been studied ; the focus was on long bones \cite{chirchirTrabecularBoneDomestic2021g,chirchirEffectsReducedMobility2022h,pelletierInfluenceCaptivitySelection2021d} and bones with muscular insertions \cite{jingMorphologicMechanicalAdaptive2024e} or on animals with different locomotion patterns \cite{zackEffectCaptivityVertebral2022}. By continuing this analysis on the second bone of the first row of the tarsus, this study seeks to determine whether the microanatomy of the boar's talus reflects changes in the mobility regime.
+
+The study will be based on a comparison between groups with different mobility models (natural habitat, large enclosure and stall) and archaeological wild boars from the Mesolithic (\textit{ca.} 9 700-5 200 cal. av. J.-C.), a period preceding the arrival of agriculture in Europe. The aim is to carry out a qualitative and quantitative analysis of the impact of different locomotor contexts on the internal structure of a tarsal bone, the talus, in a wild ungulate, the wild boar. This study should make it possible to identify and characterise the potential consequences of growth in captivity on the internal structure of the talus in wild boar, and to highlight distinctions between wild boar or boar reared extensively and boar reared in captivity, and thus gain a better understanding of the early stages of the domestication of the wild boar.
+
+\section{Material and methods}
+The sample consists of talus bones from specimens of the DOMEXP project: eleven were raised in stables and ten in enclosures. To compare the microanatomical variability of these specimens from a homogeneous population with that of wild boars, talus bones from wild specimens were selected from two contemporary populations, control population specimens, and boars from Mesolithic levels (ca. 9 700–5 200 cal. BCE), a period preceding the spread of the Neolithic and the dispersal of domestic pigs from Southwest Asia to Western Europe. 
+
+The study of multiple populations from the same climatic zone was conducted to control for the influence of genetic factors and physical characteristics (e.g., size, which varies significantly by geographic region; \cite{albarellaSizeShapeEurasian2009a,grovesCurrentViewsTaxonomy2007d}). The contemporary specimens from both wild populations and the fenced forest population (control group) lived in the same geographic and climatic zone—central France, which has a temperate climate. The sex of all specimens was determined except for specimen 2013-1287 (a juvenile) and the Mesolithic specimens, as there is no sex determination reference based on boar talus bones. 
+
+In total, the corpus comprises 59 talus bones from different boar specimens. Five specimens were taken from the control population in the Urciers forest (collection name: Pradat). Fifteen came from contemporary wild individuals hunted in two different populations in northern France: nine from the Chambord forest (where the available area for boars was 54 km²) and six from the Compiègne forest (150 km² available area; \cite{neauxConstraintsAssociatedCaptivity2021t}). Specimens from the Domaine National de Chambord (DNC) lived in Europe's largest enclosed estate, which is considered "intensively fed" (i.e., a hunting practice involving feeding wild animals in their environment, typically by scattering grain), where boars are highly concentrated around feeding sites \cite{jegouxCHASSEDYNAMIQUEPOPULATIONS2016}. Although the Compiègne forest provides more space for boars and stricter regulations on feeding practices, this practice remains permitted \cite{onfFicheLotForet2023}.
+
+Ten specimens originate from Mesolithic levels at the Haut-des-Nachères archaeological site in Noyen-sur-Seine (Seine-et-Marne, France). This site is located in the Paris Basin and consists of fluvial peat deposits preserving archaeological layers from the Mesolithic to the Middle Neolithic (ca. 4 900–3 400 BCE; \cite{marinval-vigneArcheologiePaleoenvironnementNoyenSeine1993g,mordantNoyenSeineVingtcinqAns2013d}). Excavations revealed multiple Mesolithic occupations. The remains correspond to fluvial dynamics dated by \textsuperscript{14}C on wood (G. Delibrias/Gif, 1985–86) and span approximately one millennium: Locus 1 (NOY 83-84) = 7 400–8 000 BP ± 100; Locus 3 (NOY 85-87) = 6 200–7 000 BP ± 100. These dates were confirmed by lithic industry studies \cite{gueretLoutillagePremierMesolithique2013,
+deseineNouveauRegardOccupations2019}. 
+
+The boars studied here come from Ensembles 2 and 3, attributed to the Middle Mesolithic (ca. 8 000–6 500 BCE) and Late/Final Mesolithic (ca. 6 500–5 200 BCE), respectively \cite{davidModelisationVegetationHolocene2014d}. Specimens from Ensemble 2 (K135 and E143-7) originate from Locus 1 and are included in formations dated by \textsuperscript{14}C (7 400–8 000 BP, or 7 190–5 970 BCE) to the Early Mesolithic, confirmed by lithic industry \cite{gueretLoutillagePremierMesolithique2013}. This locus is overlain by formations attributed to the Middle Neolithic II (ca. 4 000 BCE). Specimens from Ensemble 3 (Locus 3, 6 060–4 995 BCE) form a coherent group with well-clustered boar remains. There is no evidence of contamination from later deposits. 
+
+Chronologically, these populations predate the earliest Neolithic settlements (ca. 5 100–4 900 BCE in the Paris Basin), though no concrete traces exist at Noyen-sur-Seine. Furthemore, six specimens originante from the mesolithic levels from the site of l’abri des Cabônes in Ranchot (Jura, France)\cite{campyRanchotAbriCabones2019} and two from the levels of the same period of the site of l'abri d'Arconciel/ La Souche (Fribourg, Swiss) \cite{castelFauneMesolithiqueLabri2020}. Thus, this group represents pre-Neolithic economies. However, some Late Mesolithic specimens may show uncertainties regarding their wild/domestic origin, as wild specimens of domestic origin have been identified on Mesolithic sites (e.g., Ertebølle groups in Scandinavia coexisting with Neolithic Linear Pottery cultures for ~700 years; \cite{krause-kyoraUseDomesticatedPigs2013, evinExploringComplexityDomestication2014,rowley-conwyMesolithicDomesticPigs2014,rowley-conwyWildBoarDomestic2014}). Additionally, at the Grande-Rivoire shelter (Isère, France), a brown bear (\textit{Ursus arctos}) mandible with dental deformations suggests captivity \cite{chaixTamedBrownBear1997}. Pig husbandry only developed in Western Europe by the late 5th to early 4th millennium BCE \cite{arbogastPremiersElevagesNeolithiques1990,tressetSubstitutionSpeciesTechniques2007,larsonAncientDNAPig2007f}.
+
+\subsection{Data Acquisition: Scanning and Segmentation}
+The bones were scanned using high-resolution computed tomography (resolution ranging from 45 to 77$\mu$m depending on talus size) at the MRI platform hosted by ISEM, Université de Montpellier (UMR 5554; EasyTom 40-150, RX Solutions) and reconstructed with X-Act software (RX Solutions). 
+
+Bone tissues were fully segmented (i.e., separation of different bone tissues from each other and from non-bony areas) to enable both qualitative and quantitative analysis of whole-bone microanatomy. To observe and quantify variations in compact bone thickness, the compact bone was separated from trabecular bone through manual segmentation coupled with the "smooth labels" function (this approach prevented artificial additions between successive reconstructed slices and provided more natural contours) in Avizo 9.4 (VSG, Burlington, MA, USA) in order to enable relatively objective and reproducible study of distinct bone tissues \cite{houssayeSesamoidBonesAlso2022w}.
+
+The external bone surface was isolated, and an internal surface corresponding to the the internal limit of the compact bone (or outer limit of the trabecular zone) was extracted for each bone using the "fill" function and using "Remove islands" to eliminate intracortical cavities. The resulting volumes corresponding to: whole bone tissue, compact bone, trabecular bone, spongiosa (trabecular bone and intertrabecular spaces) and entire bone were converted into image stacks for subsequent analysis.
+\subsubsection{3D cartographies of compact Bone Thickness}
+In order to visualize and measure the relative variation in compact bone thickness along each bone, the distances between the internal and external surfaces of the compact bone were calculated in Avizo 9.4 using the \textquotedblleft surface distance\textquotedblright~function, thus obtaining compact thickness maps. A distance isosurface was generated with a color gradient on the external bone surface, showing the relative variation in compact bone thickness for each bone. This color gradient is specific to each specimen since it ranges between the minimum and maximum compact thicknesses of that particular specimen. Warmer colors are used for greater thicknesses, and cooler colors for smaller thicknesses. Consequently, two specimens with similar colorimetry may have different absolute compact thicknesses.
+\subsection{Quantitative Parameters of the Talus Bone Microanatomy}
+Several quantitative parameters (Table~\ref{tab:data_boar}) were used to describe the internal bone structure. These were obtained directly from Avizo: (1) the whole bone volume (WBV) in cm\textsuperscript{3}, based on the segmentation of bone tissues and secondary filling of cavities, is the sum of the bone tissue volume and inter-trabecular spaces. (2) Bone compactness (C) is derived by dividing the bone tissue volume (BTV, obtained by summing the different bone tissues in Avizo) by the whole bone volume: C = BTV $\times$ 100/WBV, where BTV = compact bone tissue + trabecular bone tissue. (3) The proportion of trabecular bone (\%Trab) corresponds to the trabecular bone tissue volume multiplied by 100, divided by the BTV. (4) Trabecular compactness (TC) was calculated by dividing the trabecular bone tissue volume multiplied by 100 by the trabecular bone volume (trabecular bone and inter-trabecular spaces). 
+
+Additionally, two parameters were obtained using the "distance" function in Avizo, based on MaxT, the maximum cortical bone thickness, and MeanT, the mean cortical bone thickness. These are (5) RMaxT and (6) RMeanT (relative maximum and mean thicknesses), obtained by dividing MaxT and MeanT by an average radius. The latter was calculated from the WBV by approximating the tali as spheres, where:
+\begin{equation}
+r = \sqrt[3]{\frac{3 \cdot \text{WBV}}{4\pi}}.
+\end{equation}
+
+All microanatomical parameters except WBV are dimensionless and range between 0 and 1.
+
+\begin{landscape}
+\begin{table}[!htbp]
+    \centering
+    \footnotesize
+    \setlength{\tabcolsep}{3pt}  % Réduit l'espace entre colonnes
+    \renewcommand{\arraystretch}{0.05}  % Réduit l'espace entre lignes
+    \caption{List of specimens and the various parameters studied, where each line corresponds to a specimen. LHT: Réserve de la Haute-Touche; M: male; F: female; Ind: undetermined; Age in months; WBV: whole bone volume (\si{\centi\meter\cubed}); C: bone compactness; \%Trab: proportion of trabecular bone; TC: trabecular compactness; RMeanT: mean relative thickness of compact bone; RMaxT: maximum relative thickness of compact bone.}
+    \label{tab:data_boar}
+    \footnotesize
+    \begin{tabular}{@{}lllccccccccc@{}}
+    \toprule
+    ID & Context & Origin & Sex & Age & Mass & WBV & C & \%Trab & TC & RMeanT & RMaxT \\
+    \midrule
+    2013-1272 & hunted & Chambord & F & 36 & 51.5 & 9.69 & 61.39 & 60.00 & 48.82 & 5.8 & 37.7 \\
+    2013-1273 & hunted & Chambord & M & 72 & 123 & 13.42 & 84.19 & 54.54 & 74.39 & 9.8 & 51.2 \\
+    2013-1286 & hunted & Chambord & F & 17 & ~ & 8.93 & 62.40 & 76.98 & 56.10 & 3.0 & 16.4 \\
+    2013-1287 & hunted & Chambord & ~ & 2 & ~ & 1.10 & 71.91 & 64.62 & 62.32 & 7.1 & 27.0 \\
+    2017-576 & hunted & Chambord & F & 17.5 & ~ & 11.64 & 89.41 & 48.96 & 80.53 & 12.3 & 48.9 \\
+    2017-578 & hunted & Chambord & F & 20 & ~ & 10.11 & 87.63 & 50.80 & 78.25 & 11.3 & 45.8 \\
+    2017-579 & hunted & Chambord & F & 18 & ~ & 9.76 & 90.60 & 46.76 & 81.84 & 13.9 & 50.0 \\
+    2017-580 & hunted & Chambord & F & 18.5 & ~ & 11.48 & 91.99 & 41.52 & 82.66 & 16.5 & 59.7 \\
+    2017-581 & hunted & Chambord & F & 19 & ~ & 9.53 & 83.22 & 57.42 & 74.00 & 8.6 & 57.2 \\
+    2013-1257 & hunted & Compiègne & F & 10 & 77 & 14.13 & 75.56 & 60.32 & 65.09 & 7.4 & 45.1 \\
+    2013-1258 & hunted & Compiègne & M & 13 & 64 & 16.15 & 72.38 & 65.78 & 63.29 & 5.9 & 41.1 \\
+    2013-1263 & hunted & Compiègne & M & 18 & 112.5 & 15.66 & 80.00 & 63.55 & 71.77 & 7.0 & 48.2 \\
+    2013-1264 & hunted & Compiègne & F & 12 & 60.8 & 13.37 & 71.74 & 58.46 & 59.74 & 7.7 & 55.1 \\
+    2013-1270 & hunted & Compiègne & M & 17 & 86 & 17.12 & 75.35 & 59.96 & 64.70 & 7.6 & 48.0 \\
+    2013-1285 & hunted & Compiègne & F & 17.5 & 61.2 & 11.41 & 70.62 & 52.29 & 55.69 & 8.5 & 48.3 \\
+    Pradat175 & control & Pradat & M & 20 & 53 & 12.43 & 82.68 & 52.22 & 71.37 & 10.1 & 55.5 \\
+    Pradat184 & control & Pradat & M & 8 & 35 & 13.05 & 81.68 & 58.30 & 72.22 & 8.6 & 49.2 \\
+    Pradat185 & control & Pradat & M & 20 & 52 & 12.80 & 82.88 & 58.05 & 73.75 & 8.6 & 50.1 \\
+    Pradat187 & control & Pradat & F & 84 & 110 & 19.28 & 83.09 & 46.14 & 69.40 & 12.7 & 47.7 \\
+    Pradat188 & control & Pradat & F & 96 & 60 & 12.03 & 87.21 & 48.87 & 76.91 & 12.2 & 52.0 \\
+    2017-557 & pen & LHT & F & 25 & 92 & 12.59 & 91.20 & 55.68 & 85.24 & 10.3 & 46.2 \\
+    2017-558 & pen & LHT & M & 25 & 84 & 16.77 & 92.29 & 63.57 & 88.38 & 8.0 & 41.8 \\
+    2017-561 & pen & LHT & M & 25 & 90 & 15.89 & 83.40 & 63.13 & 76.03 & 7.6 & 42.7 \\
+    2017-563 & pen & LHT & M & 25 & 91.5 & 15.30 & 87.43 & 64.88 & 81.85 & 7.0 & 45.3 \\
+    2017-564 & pen & LHT & F & 25 & 67 & 13.55 & 92.17 & 50.65 & 85.63 & 11.3 & 46.3 \\
+    2017-568 & pen & LHT & M & 25 & 84 & 11.74 & 82.43 & 66.23 & 75.65 & 6.2 & 30.9 \\
+    2017-570 & pen & LHT & M & 25 & 67 & 10.80 & 88.20 & 61.25 & 82.08 & 8.8 & 44.7 \\
+    2017-572 & pen & LHT & M & 25 & 90.5 & 15.15 & 78.80 & 63.04 & 70.09 & 7.1 & 40.1 \\
+    2017-573 & pen & LHT & M & 25 & 86.5 & 16.34 & 81.89 & 66.31 & 74.99 & 6.7 & 35.0 \\
+    2017-8 & pen & LHT & F & 25 & 53.5 & 13.55 & 88.15 & 65.86 & 83.04 & 6.7 & 42.9 \\
+    2017-554 & stall & LHT & F & 25 & 91 & 12.95 & 90.31 & 63.61 & 85.57 & 7.9 & 30.3 \\
+    2017-554unnumb & stall & LHT & F & 25 & 91 & 11.91 & 90.32 & 63.74 & 85.60 & 7.8 & 34.0 \\
+    2017-555 & stall & LHT & F & 25 & 89 & 10.47 & 91.79 & 59.12 & 86.86 & 9.4 & 43.6 \\
+    2017-556 & stall & LHT & F & 25 & 53.5 & 10.88 & 91.79 & 61.33 & 87.28 & 8.6 & 44.5 \\
+    2017-559 & stall & LHT & F & 25 & 66.5 & 11.11 & 77.46 & 70.48 & 70.78 & 5.5 & 29.0 \\
+    2017-560 & stall & LHT & M & 25 & 89 & 17.75 & 81.92 & 69.32 & 75.85 & 5.9 & 35.6 \\
+    2017-562 & stall & LHT & M & 25 & 73 & 14.75 & 89.87 & 56.60 & 83.39 & 10.5 & 45.2 \\
+    2017-569 & stall & LHT & F & 25 & 61.5 & 11.28 & 72.96 & 69.87 & 65.34 & 4.7 & 20.7 \\
+    2017-571 & stall & LHT & M & 25 & 77.5 & 13.84 & 85.63 & 58.24 & 77.63 & 9.1 & 47.7 \\
+    2017-574 & stall & LHT & M & 25 & 96 & 17.78 & 88.42 & 49.09 & 78.94 & 12.1 & 53.5 \\
+    2017-575 & stall & LHT & M & 25 & 84 & 16.06 & 77.82 & 64.25 & 69.27 & 6.7 & 36.5 \\
+    C235 & Mesolithic & Noyen & ~ & ~ & ~ & 17.43 & 81.00 & 61.69 & 72.45 & 7.7 & 39.1 \\
+    C238 & Mesolithic & Noyen & ~ & ~ & ~ & 15.50 & 84.35 & 62.94 & 77.23 & 7.8 & 37.4 \\
+    E143-7 & Mesolithic & Noyen & ~ & ~ & ~ & 13.67 & 55.61 & 65.70 & 45.15 & 4.6 & 33.7 \\
+    E236 & Mesolithic & Noyen & ~ & ~ & ~ & 15.08 & 83.97 & 57.61 & 75.12 & 8.5 & 46.5 \\
+    EG235 & Mesolithic & Noyen & ~ & ~ & ~ & 8.91 & 74.56 & 66.38 & 66.05 & 5.7 & 22.6 \\
+    G236 & Mesolithic & Noyen & ~ & ~ & ~ & 21.61 & 80.30 & 64.87 & 72.56 & 6.6 & 44.1 \\
+    G238 & Mesolithic & Noyen & ~ & ~ & ~ & 15.69 & 69.58 & 66.06 & 60.18 & 5.4 & 22.4 \\
+    J234 & Mesolithic & Noyen & ~ & ~ & ~ & 15.75 & 84.48 & 57.41 & 75.76 & 9.0 & 45.4 \\
+    K135 & Mesolithic & Noyen & ~ & ~ & ~ & 13.77 & 62.92 & 61.03 & 50.88 & 5.5 & 43.1 \\
+    M212 & Mesolithic & Noyen & ~ & ~ & ~ & 16.17 & 77.62 & 64.20 & 69.00 & 6.9 & 39.5 \\
+    ARC-12990 & Mesolithic & Arconciel & ~ & ~ & ~ & 23.00 & 76.13 & 68.07 & 69.46 & 5.12 & 26.15 \\
+    ARC-16242 & Mesolithic & Arconciel & ~ & ~ & ~ & 20.37 & 63.08 & 59.36 & 52.41 & 5.87 & 35.62 \\
+    RAN-270 & Mesolithic & Ranchot & ~ & ~ & ~ & 18.30 & 63.70 & 53.82 & 53.01 & 8.46 & 48.63 \\
+    RAN-397 & Mesolithic & Ranchot & ~ & ~ & ~ & 19.71 & 59.61 & 71.62 & 53.42 & 4.54 & 19.78 \\
+    RAN-398 & Mesolithic & Ranchot & ~ & ~ & ~ & 15.09 & 63.21 & 65.31 & 55.80 & 6.10 & 39.50 \\
+    RAN-460 & Mesolithic & Ranchot & ~ & ~ & ~ & 18.97 & 77.59 & 60.52 & 69.45 & 7.77 & 42.78 \\
+    RAN-545 & Mesolithic & Ranchot & ~ & ~ & ~ & 14.60 & 77.35 & 54.50 & 66.88 & 9.02 & 55.51 \\
+    RAN-706 & Mesolithic & Ranchot & ~ & ~ & ~ & 19.69 & 69.47 & 59.00 & 58.88 & 7.60 & 45.89 \\
+    \bottomrule
+    \end{tabular}
+    \end{table}
+\end{landscape}
+
+\subsection{Statistical Analyses}
+
+%To synthesize the variability of microanatomical parameters across specimens, the phenetic Neighbor-Joining (NJ) method was applied to construct an unrooted phenetic tree. 
+To visualize this variability in a two-dimensional space, a Principal Component Analysis (PCA) was performed where the two axes explaining maximum variance being selected.
+
+As this study aimed to quantify captivity effects on talar microanatomical variation, parameter values were compared across different locomotor contexts. Prior to comparative analysis, the influence of individual factors (body size, mass, age, and sex) on talar microanatomy was assessed. Statistical analyses were designed to separate these effects from those induced by captivity.
+
+Whole bone volume (WBV) served as a proxy for body size. Simple linear regressions were performed function to test relationships between age, body size, mass, and individual microanatomical variables. A correlation matrix was generated using Pearson correlation coefficient (On the 59 specimens, 41 have age data, 40 have sex data, and 34 have mass data). Sex was coded as a binary variable (0 = female, 1 = male).
+Kruskal-Wallis tests by ranks were performed to test microanatomical differences among locomotor contexts (Mesolithic, control, wild, enclosure, or stable), followed by Dunn's post-hoc tests with Bonferroni correction. Mann-Whitney U tests were carried out to test the difference in value of individual factors (body size, mass) according to sex in each locomotor context.
+
+Box plots were generated to visualize data distributions across locomotor contexts. To test categorical variables (context and sex) against microanatomical variables collectively (C, TC, \%Trab, RMeanT, RMaxT), PerMANOVA was applied with Bonferroni adjustment. %chelou Body size effects were similarly tested using only dimensionless parameters (C, TC, \%Trab, RMeanT, RMaxT).
+
+Samples were used for the training of supervised classification models. Classification models were tried and tested: Support Vector Machines (SVM), k-nearest neighbors classifier, random forest classification, Gradient boosting to classify specimens as wild (control, hunted or forest enclosure) or captive (DOMEXP project: enclosure/stable), excluding Mesolithic specimens during training (though subsequently classified).
+SVMs were trained using a k-fold cross-validated approach ($k = 5$), and a Radial Basis Function kernel. SVM were trained on 70:30 \% train:test sets. Algorithms were trained with $C = 10$ and $\gamma = 0.1$ and then used to predict labels on the mesolithic specimens.
+
+\subsection{Virtual Sections}
+
+Three virtual sections (Figure~\ref{coupes_talus}~A-C) were created to analyze the trabecular network in order to estimate the direction of forces applied to the talus across different parts of the bone, and to compare microanatomy between specimens from different locomotor contexts. Section analysis remains relatively observer-dependent and does not allow for precise study of anisotropy direction variations \cite{reznikovTechnicalNoteMapping2022d}. The sections were generated based on the orientation of the domestic pig talus from Barone (1986) in lateral and plantar planes using VGStudio (version Max 2.2). The terminology used to describe tali follows Barone (1986) and Martinez \& Sudre (1995).
+\begin{figure}[H]
+	\includegraphics[width=15cm]{coupes_talus.png}
+	\caption{Schematic of a domestic pig talus (\textit{Sus domesticus}) in lateral (A), dorsal (B), and plantar (C) views showing the position of virtual sections; CAD drawing after Barone (1986). 
+FS, frontal section; SS: sagittal section; TSe: transverse section. Anatomical abbreviations according to Martinez \& Sudre (1995): 
+LTJ, lateral talocalcaneal joint; TCF, talo-cuboid facet; DTcF, distal talo-calcaneal facet; TfF, talo-fibular facet; 
+TNF, talo-navicular facet; TS, tarsal sinus. DT, distal trochlea; PlT, plantar trochlea; PrT, proximal trochlea.}
+	\label{coupes_talus}
+\end{figure}
+In lateral view, tali were oriented with the most proximal point of the lateral lip of the proximal trochlea (PrT) vertically aligned with the most distal point of the distal talocalcaneal facet (DTcF), while the medial part of PrT was aligned with its lateral part. In plantar view, tali were oriented vertically relative to an axis between the most distal point of the PrT groove and the junction of the talo-cuboid facet (TFC; Figure~\ref{coupes_talus}~B-C) with the talo-navicular facet (TNF; Figure~\ref{coupes_talus}~B-C).
+
+The sagittal section (Figure~\ref{coupes_talus}~B) was positioned between the most distal point of the PrT groove and the junction of TFC with TNF. The frontal section (Figure~\ref{coupes_talus}~A) passes through the most proximal point of the lateral lip of PrT and the most distal point of the distal trochlea (DT). The transverse section (Figure~\ref{coupes_talus}~A) was selected between the lateral talocalcaneal joint (LTJ) and DTcF, at the level of the most distal point of the talofibular facet (TfF).
+\section{Results}
+\subsection{Qualitative observation of the microanatomy of the talus}
+\subsubsection{3D cartographies of Compact Bone Thickness Distribution}
+The 3D cartographies of compact bone thickness reveals relatively small variations in thickness distribution among specimens. The maximum compact bone thickness is typically found on the lateral portion of the plantar trochlea (PlT, Figure~\ref{Cartos}~F-J) and on the lateral bone surface between this trochlea and the lateral talocalcaneal joint (LTJ in Figure~\ref{Cartos}~A-E) 
+(referred to as the calcaneal surface, Facies articulares calcaneae). This thickening may vary in position on the mesial portion of the plantar trochlea (shifted laterally in specimen 2017-559) or be more or less extensive (specimens 2017-564, 2017-569; Figure~\ref{Cartos}~B,G,L and C,H,M).
+
+\begin{figure}[H]
+	\includegraphics[width=15cm]{Cartos.png}
+	\caption{3D cartographies of the distribution of compact bone thickness in wild boar talus. 
+A-E: lateral view; F-J: plantar view; K-O: proximal view. A, F, K: specimen 2017-559 (stable); B, G, L: specimen: 2017-569 (stable); C, H, M specimen: 2017-564 (enclosure); D, I, N: specimen Pradat185 (control); E, J, O: specimen EG235 (Mesolithic). Anatomical abbreviations: LTJ, lateral talocalcaneal joint; TCF, talo-cuboid facet; DTcF, distal talo-calcaneal facet; TfF, talo-fibular facet; TNF, talo-navicular facet; TS, tarsal sinus. DT, distal trochlea; PlT, plantar trochlea; PrT, proximal trochlea.}
+	\label{Cartos}
+\end{figure}
+
+Only four specimens appear to have their maximum compact bone thickness in locations other than the plantar trochlea: Specimen 2017-568 (pen) at the medial lip of the proximal trochlea ; Specimen 2017-569 (stall) between the lateral talocalcaneal joint (LTJ) and the distal talocalcaneal facet (DTcF) ; Specimen 2013-1286 (hunted) exclusively on the lateral surface ; Specimen EG235 (Late/Final Mesolithic) beneath the groove of both proximal and distal trochleae.
+
+Additionally, in 38 out of 59 specimens, the medial lip of the proximal trochlea shows greater compact bone thickness compared to other lips of the proximal and distal trochleae (specimens Pradat 185, Pradat 187, 2017-554unnumb, 2013-1264, 2017-555, 2017-564, 2017-578, 2017-560, 2017-562, 2017-571, 2017-572, 2017-576, 2017-579, EG235, ARC-12990, ARC-16242, RAN-397, RAN-460, RAN-545). The lateral lip of the proximal trochlea exhibits compact bone thickening in seven specimens (2017-569, 2017-576, 2017-580). Seven specimens show thick compact bone in the area between the lateral talocalcaneal joint (LTJ) and the distal talocalcaneal facet (DTcF) (2017-568, 2017-569, 2017-573, 2017-575, 2013-1287, G238, EG235). Five specimens display relatively high compact bone thickness at the lateral lip of the distal trochlea (2017-557, Pradat187, 2017-576, 2013-1287, K135). Thickening of the compact bone in the distal trochlea may occur at the lips or groove (2017-557, 2017-558, 2017-568, 2017-563, EG235), though this is less common. No thickening is observed on the medial surface except in two specimens (2017-568, 2017-569). Significant compact bone thickness is noted in four specimens at the proximal groove, four specimens at the distal groove and three specimens on the lateral surface.
+
+\subsubsection{Qualitative description of the internal structure of the talus}
+The wild boar talus consists of trabecular bone surrounded by compact bone (Figure~\ref{section}). Beneath the medial lip of the proximal trochlea and under the medial surface, the compact bone is often thicker (Figure~\ref{section}~F-J). In the tarsal sinus region, the compact bone is also generally thicker (Figure~\ref{section}~F-J). The density of trabecular bone is variable but systematically higher near the plantar trochlea (Figure~\ref{section}~A-E; K-O). Most specimens exhibit a looser trabecular network beneath the proximal trochlear groove, at the level of the lateral talocalcaneal joint, compared to the rest of the talus (Figure~\ref{section}~A, E, F, G, K). The trabecular bone is generally less dense around this area. Some specimens display a very compact talus (2017-8, 2017-555, 2017-556, 2017-558, 2017-561, 2017-568, 2017-579, 2013-1285, 2013-1264, 2013-1273, 2013-1287, EG235, G238, J234, M212). 
+\begin{figure}[H]
+	\includegraphics[width=15cm]{section.png}
+	\caption{Virtual sections of wild boar talus. 
+	A-E: sagittal sections; F-J: frontal sections; K-O: transverse sections. A, F, K: specimen 2013-1257 (hunted); D, I, N: specimen 2017-568 (enclosure); B: specimen G238 (Mesolithic); C: specimen C238 (Mesolithic); E: 2017-560 (stable); G: 2017-559 (stable); H: 2017-569 (stable); J: 2017-557 (enclosure); L: specimen K135 (Mesolithic); M: specimen Pradat175 (control); O: specimen Pradat188 (control). Anatomical abbreviations: LTJ, lateral talocalcaneal joint; TfF, talo-fibular facet; TS, tarsal sinus. DT, distal trochlea; PlT, plantar trochlea; PrT, proximal trochlea. scales: A, C, F, K : 2~\si{\centi\meter}; D, E, I, N: 1~\si{\centi\meter}; B, G, H, J, L, M, O: 1.5~\si{\centi\meter}}
+	\label{section}
+\end{figure}
+
+For most specimens, trabecular bone density is lower toward the center of the talus in this section, though others show homogeneous density throughout the talus except for some larger intertrabecular spaces (2017-562, 2017-569). In other specimens, the trabecular bone density is relatively low (2013-1257, 2013-1286, RAN-706).
+\subsubsection{Sagittal sections}
+In sagittal section (Figure~\ref{section}~A-E), in most specimens, the maximum thicknesses of compact bone are located: at the dorsal edge of the distal trochlea, at the center of the plantar trochlea, and uniformly beneath the entire surface of the proximal trochlea and under the surface of the tarsal sinus (Figure~\ref{section}~A). However, in these same areas, the thickness of the compact bone can be very thin (C238, E143-7, EG235, J234, 2017-575, 2017-574, 2017-556, 2017-554, RAN-397, RAN-398, RAN-706).
+
+High anisotropy (i.e., preferential orientation of trabeculae) is observed from the distal and proximal trochleae toward the plantar trochlea.
+
+The trabecular bone density varies among specimens, but in all cases, it is higher near the trochleae, close to the compact bone, and is particularly lower in the proximal region of the dorsal surface, near the proximal trochlea, between the tarsal sinus and the latter (Figure~\ref{section}~A, E). The density is generally lower between the distal and plantar trochleae than near the compact bone of the trochleae, though still higher than between the plantar and proximal trochleae. In some specimens, the trabecular bone is much less dense, although the density varies within the bone. In these specimens, the trabecular bone density is more homogeneous than in others (G238, 2017-554, 2013-1286, E143-7, C238, 2017-579). The trabeculae in the proximal region between the tarsal sinus and the plantar trochlea can exhibit a very loose structure (K135, 2013-1257, 2013-1258, Pradat 187, 188, 2017-580, 2017-557, 2017-558, 2017-561, 2017-568, ARC-12990, RAN-397, RAN-460, RAN-545, RAN-706; Figure~\ref{section}~A, E).
+
+Different trabecular bone density trends are observed between wild and captive specimens. The majority of free-ranging specimens exhibit a less dense talus (three out of five in the control group: Pradat175, Pradat184, Pradat185; four out of six from Compiègne: 2013-1264, 2013-1258, 2013-1257, 2013-1263; four out of nine from Chambord: 2017-579, 2013-1272, 2013-1286, 2013-1287). Most Mesolithic specimens display a low-density talus: C235, C238, E143-7, G238, J234, ARC-12990, RAN-397, RAN-460, RAN-545, RAN-706). Only a few captive specimens have a less dense talus (three out of eleven in the pen group: 2017-575, 2017-554, 2017-571; two out of ten in the enclosure group: 2017-563, 2017-573). Regarding differences in sex, mass, and age, they are only visible within the control population, where the tali of the two older and heavier females (Pradat187, Pradat188) exhibit a tighter trabecular network and a greater compact bone thickness compared to the other tali in the group.
+
+\subsubsection{Frontal sections}
+In frontal section (Figure~\ref{section}~F-J), most specimens exhibit a greater thickness of compact bone beneath the groove of the distal trochlea (2017-557, C235, E236, G236; DT in Figure~\ref{section}~F-J), the medial lip of the proximal trochlea (PrT in Figure~\ref{section}~F-J), and the medial and lateral surfaces except at the level of the distal articular facet with the calcaneus (DTcF in Figure~\ref{coupes_talus}).
+
+Most tali display high anisotropy of trabeculae in the proximo-dorsal plane, although this may be much weaker in some specimens (2017-579, 2013-1287, EG235, J234). In the majority of specimens, the trabeculae exhibit a looser structure at the level of the lateral talocalcaneal joint, near the midpoint between the medial and lateral surfaces (Figure~\ref{section}~F-H).
+
+Approximately half of the free-ranging specimens show relatively low trabecular bone density, except for the Compiègne group (three out of five in the control group: Pradat175, Pradat184, Pradat185; four out of nine from Chambord: 2017-579, 2013-1272, 2013-1286, 2013-1287). In contrast, among captive-raised specimens, only a few tali exhibit trabecular bone density considered low (two out of eleven in the pen group: 2017-560, 2017-575; two out of ten in the enclosure group: 2017-563, 2017-573). Half of the Mesolithic specimens (C235, C238, E236, G236, K135, ARC-12990, ARC-16242, RAN-270, RAN-398, RAN-545) display dense tali. The tali of the lightest specimens (Pradat175, Pradat184, Pradat185, 2013-1272) exhibit either large inter-trabecular spaces or very thin compact bone.
+ 
+\subsubsection{Transverse sections}
+In transverse section (Figure~\ref{section}~K-O), the compact bone thickness is substantial beneath all surfaces, except under the plantar trochlea.
+
+Most tali exhibit high trabecular anisotropy in the dorso-plantar plane; it is oriented perpendicularly or slightly oblique to the plantar trochlea; it is also high between the medial surface and the dorsal surface in some specimens (K135; Figure~\ref{section}~L). In the medio-plantar direction, certain specimens show high anisotropy (Pradat175, 2013-1285, 2017-556; Figure~\ref{section}~M).
+
+For some specimens, the trabecular bone density is relatively high in all regions, but particularly between the most dorsal part of the lateral surface and the most lateral part of the plantar trochlea, while being lower near the medial surface (2013-1258, 2013-1257, 2017-571, 2017-554, 2017-573, 2017-570, 2017-563).
+
+Captive specimens (enclosure, stall) generally display higher trabecular bone density compared to free-ranging specimens.
+
+No differences related to body mass or specimen sex are observed in transverse section. The youngest specimens are those with the thinnest compact bone (2013-1286, 2013-1287), but other specimens under 20 months of age exhibit relatively thick compact bone (2013-1285).
+
+\subsection{Quantitative observation of the microanatomy of the talus}
+\subsubsection{Description of the variability of individual factors and microanatomical parameters}
+The age of the specimens ranged from 2 to 96 months (8 years), with an average of 26 months and a median of 25 months. The mass of the specimens ranged from \SI{35}{\kilo\gram} to \SI{135}{\kilo\gram}, with an average of \SI{77.2}{\kilo\gram} and a median of \SI{80.75}{\kilo\gram}. Whole bone volume (WBV) was \SI{14.2 \pm 3.7}{\centi\meter\cubed} on average, with a median of \SI{13.8}{\centi\meter\cubed}. The mean value for maximum relative compact bone thickness (RMaxT) was \SI{41.7 \pm 9.8}{\percent}, with a median of \SI{44.1}{\percent}. The mean value for mean relative compact bone thickness (RMeanT) was \SI{8.0 \pm 2.5}{\percent}, with a median of \SI{7.7}{\percent}. 
+
+Trabecular bone (\%Trab) occupies an average of \SI{60.2 \pm 6.9}{\percent} of bone tissue, with a median of \SI{61.0}{\percent}. Compactness (C) has a mean value of \SI{79.6 \pm 9.6}{\percent} and a median of \SI{81.9}{\percent}. Trabecular compactness (TC) had a mean value of \SI{71.1 \pm 10.9}{\percent}, with a median of \SI{72.4}{\percent}.
+\subsubsection{Relationships between microanatomical variables and individual factors}
+Among the quantitative microanatomical variables, the whole talus bone volume (WBV) showed the strongest associations with individual variation factors, primarily with mass ($r = 0.51$, $R^2 = 0.24$, $p = 0.0019$) and sex ($r = 0.58$, $R^2 = 0.32$, $p < 0.0001$) (Figure~\ref{correlation_matrix}; Appendix). 
+
+\begin{figure}[H]
+	\includegraphics[width=15cm]{correlation_matrix_pairwiseNA.jpg}
+	\caption{Correlation matrix between quantitative variables of bone microanatomy and individual factors.\\
+\textcolor{blue}{Blue color}: negative correlation; \textcolor{red}{red}: positive correlation. The darker the color and the larger the circle diameter, the stronger the correlation (positive or negative). Light colors correspond to values tending toward no correlation. \\
+\textbf{Abbreviations:} \\
+WBV: whole bone volume, C: bone compactness, \%Trab: proportion of trabecular bone, TC: trabecular compactness, RMaxT: maximum relative thickness of compact bone, RMeanT: mean relative thickness of compact bone. \\}
+	\label{correlation_matrix}
+\end{figure}
+
+The trabecular bone proportion (\%Trab), which was significantly correlated with specimen age ($r = -0.31$, $R^2 = 0.08$, $p = 0.0489$; Figure~\ref{correlation_matrix}), showed no significant association with either mass or sex ($R^2 = -0.03$ and $R^2 = 0.03$ respectively; $p = 0.8775, p = 0.1616$).
+
+Other microanatomical variations (bone compactness, trabecular compactness, maximum relative compact bone thickness, mean relative compact bone thickness) showed no significant relationships with individual factors (Figure~\ref{correlation_matrix}). 
+
+Furthermore, no differences were observed in the collectively studied microanatomical parameters (excluding whole bone volume) either between males and females or in relation to age and mass ($R^2 = 0.02$, $R^2 = 0.004$ and $R^2 = 0.004$ respectively; perMANOVA, $p = 0.448$, $p = 0.078$ and $p = 0.722$).
+
+Among the different locomotor context groups, only the talus volume (WBV) of the stable-raised group showed significant differences between females (mean ± standard deviation: 11.4 ± 0.8 cm\textsuperscript{3}) and males (mean ± standard deviation: 16.0 ± 1.8 cm\textsuperscript{3}; Mann-Whitney U, U = 0, $p = 0.004$). Mass did not differ significantly between females and males across different contexts (Kruskal-Wallis, $p > 0.05$; Appendix).
+
+% à vérifier, je ne sais pas si je garde cette partie The Mesolithic tali (mean total bone volume: 15.4 ± 3.2 cm\textsuperscript{3}) were on average 3.5 cm\textsuperscript{3} larger than those of modern females (11.9 ± 2.2 cm\textsuperscript{3}; Games-Howell, $p < 0.05$; Appendix~3), but showed no significant difference from modern males (14.9 ± 2.1 cm\textsuperscript{3}; Games-Howell, $p > 0.05$; Appendix~3). They were also on average 7.6\% less compact (C) than modern males (perm t-test, $p < 0.05$; Appendix~3) and had a 2.4\% lower mean relative thickness (RMeanT) compared to females (Games-Howell, $p < 0.05$; Appendix~3). The distributions of C and RMeanT between modern females and males showed no significant differences (Games-Howell, $p > 0.05$; Appendix~3).
+\subsubsection{Microanatomical parameters and locomotion context}
+The first two principal components of the PCA performed on variables RMeanT, RMaxT, C, TC, and \%Trab from the 59 specimens explain 93.8\% of the total variance (69.2\% for axis 1 and 24.6\% for axis 2; Figure~\ref{correlation_circle}). According to the correlation circle (Figure~\ref{correlation_circle}), variables \%Trab and RMaxT show negative correlation on both axes. Variable \%Trab also correlates negatively with RMeanT, though more weakly. Variables TC and C show strong covariance and are decorrelated from other variables. 
+
+
+
+For axis 1, RMeanT contributes most strongly to the structure; other variables also show significant contributions. Variable TC primarily structures axis 2, with C and \%Trab contributing moderately. Body size (WBV) and mass show no correlation with the principal PCA axes unlike the age variable, which shows a weak correlation with PC1 ($r = 0.028$, $R^2 = 0.115$ and $p = 0.028$; Appendix).
+
+\begin{figure}[H]
+	\includegraphics[width=15cm]{circle.jpg}
+	\caption{Correlation circle of the first two principal components from PCA performed on the following variables: relative mean thickness (RMeanT), relative maximum thickness (RMaxT), bone compactness (C), trabecular compactness (TC), and proportion of trabecular bone (\%Trab).}
+	\label{correlation_circle}
+\end{figure}
+
+The modern hunted specimens exhibit the widest distribution along axis 1 (Figure~\ref{PCA}). Mesolithic specimens cluster predominantly at negative values, contrasting with the control group. Stabled specimens show a centered but narrower distribution compared to hunted specimens. Enclosed specimens display a relatively tight distribution around positive values.
+
+Along axis 2, a separation emerges between free-ranging (hunted, control) and captive (enclosed, stabled) groups. Mesolithic specimens show the broadest axis 2 distribution, overlapping both free-ranging and captive groups while trending toward lower axis 2 values. 
+% A VERIFIER QUAND J'AURAIS LES DONN2ES DE THOMAS : The two Mesolithic specimens with high axis 2 values represent the Middle Mesolithic, while those near the center (indistinct from captive specimens) belong to the Late/Final Mesolithic.
+
+Captive groups (enclosed, stabled) differentiate from modern hunted specimens primarily along PC2, characterized by higher trabecular compactness variables (Figure~\ref{PCA}). The stabled group shows broader distribution than the enclosed group, with one specimen at negative values. Wild boars hunted from both forests exhibit extensive microanatomical variation, fully encompassing the control group and most Mesolithic specimens.
+The microanatomical variables studied collectively showed significant differences between locomotor contexts (perMANOVA, $p = 0.001$, $R^2 = 0.260$, $F = 4.733$). 
+
+\begin{figure}[H]
+	\includegraphics[width=15cm]{PCA.jpg}
+	\caption{Principal Components 1 and 2 from the PCA performed on the variables: relative mean thickness (RMeanT), relative maximum thickness (RMaxT), bone compactness (C), trabecular compactness (TC), and proportion of trabecular bone (\%Trab) for the 51 specimens with their associated context.}
+	\label{PCA}
+\end{figure}
+
+Every individual microanatomical variables exhibited significant differences by locomotor context: \%Trab (Kruskal-Wallis, $H = 11.952$, $p = 0.0177$), RMaxT (Kruskal-Wallis, $H = 15.371$, $p = 0.004$), RMeanT (Kruskal-Wallis, $H = 11.429$, $p =0.0221$), TC (Kruskal-Wallis, $H = 23.508$, $p = 0.0001$), and C (Kruskal-Wallis, $H = 19.958$, $p = 0.0005$) (Figure~\ref{Boxplots}; Appendix). For trabecular bone proportion (\%Trab), no group was significantly different (Dunn's test, $p > 0.05$). Relative maximum thickness (RMaxT) values differed significantly between: control and mesolithic groups (Dunn's test, $p = 0.020$), control and stable groups (Dunn's test, $p = 0.032$) but not between control and enclosure groups (Figure~\ref{Boxplots}; Appendix). The control group showed RMaxT values averaging 12.70\% higher than the mesolithic group and 12,66\% higher than the stable group.
+Relative mean thickness (RMeanT) values differed significantly between mesolithic specimens and the	control	group (Dunn's test, $p = 0.016$) with the control group group showing RMeanT values 3,65\% higher than the mesolithic group.
+Trabecular compactness (TC) showed the most significant differences across locomotor contexts: Enclosure vs. modern hunt (Dunn's test, $p = 0.032 $), Mesolithic vs. enclosure (Dunn's test, $p = 0.0007$), Mesolithic vs. stall (Dunn's test, $p = 0.002$), with captive groups displaying higher average values than free-ranging groups.  
+Compactness (C) significantly distinguished the Mesolithic from enclosure group (Dunn's test, $p = 0.002 $), and stall group (Dunn's test, $p = 0.006 $) with the enclosure and stall groups showing respectively 14.12\% and 12.83\% higher average compactness than the Mesolithic group. % A VERIFIER Additionally, the two Middle Mesolithic specimens (K135, E143-7) exhibited among the lowest values for compactness (C), trabecular compactness (TC), and relative mean thickness (RMeanT) in the sample.
+
+\begin{figure}[H]
+	\includegraphics[width=15cm]{Boxplots.jpg}
+	\caption{Boxplots showing the distribution of wild boar talus for each microanatomical parameter across different contexts. The parameters include: relative mean thickness (RMeanT), relative maximum thickness (RMaxT), bone compactness (C), trabecular compactness (TC), proportion of trabecular bone (\%Trab), and whole bone volume (WBV, in cm\textsuperscript{3}).}
+	\label{Boxplots}
+\end{figure}
+
+The SVM average cross-validation score was 93.3\% and the accuracy on the final test was 84.6\%. Mesolithic specimens ARC-12990, J234, EG235, G236, C235 and C238 were classified as having microanatomy associated with captivity. Specimens E143-7, E236, G238, K135, M212, ARC-16242, RAN-270, RAN-397, RAN-398, RAN-460, RAN-545, RAN-706 were classified as having microanatomy associated with life in the wild.
+
+\section{Discussion}
+This study aimed to qualitatively and quantitatively test the impact of different captivity contexts on the internal structure of wild boar tali to identify distinctions between wild/extensively raised boars and captive-bred boars, thereby better understanding the early stages of wild boar domestication.
+
+\subsection{Common Microanatomical Patterns in Captive and Wild Boars}
+The bone tissue distribution pattern in wild boar tali resembles that of all short bones, with compact bone surrounding trabecular bone \cite{curreyChapterCancellousBone2013}.
+
+\subsubsection{Compact Bone Distribution}
+Maximum compact bone thickness occurs beneath the plantar trochlea, convex in the proximodistal direction where the calcaneus articulates and exhibits high mobility on this talar surface \cite{baroneIVArticulationsJambe2020t}. The lateral surface and lateral talocalcaneal joint (LTJ) show relatively thick compact bone in many specimens - this area corresponds to the articulation site of the calcaneal coracoid process \cite{baroneIVArticulationsJambe2020t}. Other zones with significant compact bone thickness include: the medial lip of the proximal trochlea (part of the cruro-tarsal joint), the tarsal sinus and proximal medial surface (non-articular areas where cortical thickening likely corresponds to ligament insertion sites) and the distal trochlear groove (directly articulating with the navicular) whose thickening could be linked to the transmission of compression forces to the other bones of the distal part of the hind limb.
+
+\subsubsection{Trabecular Bone Organization}
+In short bones, trabecular bone typically fills the entire structure and bears most compressive forces \cite{curreyChapterCancellousBone2013, silvaModelingMechanicalBehavior1997}. According to bone functional adaptation theory, trabecular orientation reflects the direction of principal mechanical stresses \cite{rouxZuchtendeKampfTeile1881, wolffLawBoneRemodelling1986} during locomotion \cite{curreyBonesStructureMechanics2013b}. While trabecular properties show strong sexual dimorphism in other species \cite{macdonaldAgerelatedPatternsTrabecular2011, parfittAgerelatedStructuralChanges1984}, no major sex-based differences were identified here.
+
+Most specimens exhibited high anisotropy from the distal and proximal trochleae toward the plantar trochlea, indicating significant body weight stresses transmitted from the shin to the proximal trochlea and an important calcaneal stabilization against the plantar trochlea by talocalcaneal ligaments during extensor muscle leverage \cite{barrFunctionalMorphologyBovid2014o}.
+The high anisotropy in various directions indicates a stereotyped locomotor repertoire with movements along a primary axis \cite{suTrabecularBoneAnisotropy2013}. The angle between bone trabeculae oriented in the proximo-plantar direction and those in the disto-plantar direction is either obtuse or perpendicular. 
+
+This trabecular orientation alone cannot resist compression stresses in the proximo-distal direction without a secondary trabecular orientation. Potential deformations caused by significant compression forces in both proximo-distal and disto-plantar directions are mitigated by a secondary perpendicular trabecular orientation, running from one side to the other in the dorso-plantar and medio-plantar directions \cite{curreyBonesStructureMechanics2013b}.
+
+\subsubsection{Ankle Mechanics}
+The substantial compact bone thickness at trochleae could be related to their role in sagittal plane mobility and force transmission. The plantar trochlea acts as a rotational axis during ankle dorsiflexion/plantar flexion movements for the other tarsal bones \cite{barrFunctionalMorphologyBovid2014o,schaefferNotesOriginFunction1947u,
+grimshawC6Levers2006}.
+
+Wild boars exhibit the asymmetric gait typical of cursorial ungulates (right fore/left hind followed by left fore/right hind limb placement). They utilize all three basic ungulate gaits (walk, trot, gallop) \cite{hildebrandAnalysisAsymmetricalGaits1977}, though their running capacity is less developed than ruminants (except bovines) \cite{mayerWildPigsBiology2009}. Captivity may affect trabecular structure by reducing the need for rapid gaits like galloping.
+
+\subsection{Plastic Responses to Captivity}
+Compact bone thickness distribution showed no distinctive captivity-related trends in DOMEXP project specimens \cite{cottereauCanGrowthCaptivity2023ab}, consistent with studies comparing extensively vs. enclosure-raised pigs \cite{mainlandMacroMicromorphologicalFeatures2007t}. However, this contrasts with DOMEXP humeral data showing captive specimens had more voluminous compact bone than wild counterparts \cite{harbersInvestigatingImpactCaptivity2020ab}. The long bones (stylopod, zeugopod, metapod) of reindeer (\textit{Rangifer tarandus}) born in the wild but having spent part of their life in captivity exhibited thicker compact bone compared to wild specimens \cite{pelletierInfluenceCaptivitySelection2021d}.
+
+Trabecular bone revealed captivity-related trends: captive boars seem to exhibit denser trabecular bone than free-ranging specimens; no strong correlations with individual factors (age, sex, mass, body size) which suggests that microanatomical variations reflect phenotypic plasticity rather than individual traits. However, the trabecular bone proportion (\%Trab) appears to decrease with age, consistent with current knowledge about this bone tissue in mammals \cite{macdonaldAgerelatedPatternsTrabecular2011,parfittAgerelatedStructuralChanges1984}. The calcaneus study had identified the inverse relationship \cite{cottereauCanGrowthCaptivity2023ab}. The trabecular bone proportion cannot be used alone as a classification variable, since the control group and hunted group contain the oldest determined specimens.
+
+
+\subsection{Wild Population Variability}
+Boars hunted in Chambord and Compiègne forests showed greater microanatomical variability than both control and Mesolithic groups across all compact and trabecular bone variables. Mesolithic specimens had larger average talar volumes than modern wild boars, potentially reflecting Holocene climatic changes following Bergmann's rule (i.e., the tendency for a positive correlation between species' body mass and the latitude they inhabit \cite{blackburnGeographicGradientsBody1999}). Previous studies suggested that wild boar size variations followed Bergmann's rule  during the Holocene, with specimens being smaller in more temperate climates \cite{albarellaSizeShapeEurasian2009a, cucchi4500YearsMorphological2023t}.
+Furthermore, this smaller body size and more variable microanatomy in modern wild specimens could be associated with: increased anthropization of their natural habitat, and/or selective hunting of larger specimens during the Mesolithic. However, analyses of wild boar dental series typically reveal a majority of juveniles and young adult females under two years old, the most abundant demographic in living populations, suggesting non-selective predation during the Mesolithic in northern and eastern France \cite{searaChasserAuMesolithique2010, bridaultEconomiesChasseEpipaleolithiques1994}.
+
+\subsection{Captivity-Related Trend Interpretations}
+The thickness of the cortical bone in long bones being strongly linked to changes in muscular activity encountered in captivity \cite{harbersInvestigatingImpactCaptivity2020ab, pelletierInfluenceCaptivitySelection2021d}, this changes cannot be reflected in a short bone lacking muscular insertions, such as the talus. Moreover, no variation in cortical bone thickness had been identified in another irregular bone, the calcaneus, despite having areas of muscular insertions \cite{cottereauCanGrowthCaptivity2023ab}.
+Regarding trabecular bone, repeated mechanical loading can result in higher anisotropy of the bone trabeculae \cite{georgiouTrabecularBonePatterning2018}. Here, captive wild boars do not exhibit changes in the degree of anisotropy, and although the orientation of their trabeculae may help withstand compression, a looser network of trabeculae is observed in many specimens beneath the groove of the proximal trochlea, at the level of the lateral talocalcaneal joint.  
+A hypothesis to explain the observed trends in the trabecular bone (denser) of the talus in captive specimens, which are associated with an increase in mechanical loading, is that they may partly result from stereotypical behaviors (i.e., repetitive sequences of movements without an obvious purpose) linked with captivity \cite{broomAssessingWelfareSuffering1991, neauxHowChangesFunctional2021t}, as these movements can lead to plastic modifications in skull and mandible shape \cite{neauxHowChangesFunctional2021t}. Furthermore, wild boars, like other species of captive wild ungulates, tend to exhibit spontaneous bursts of activity, involving sudden rushes toward their enclosures \cite{mayerWildPigsBiology2009}.
+
+Since this adaptation does not appear to be associated to specimen body mass or differences in substrate (between the control population and the captive one), it is more likely to be linked to behavioral modifications in captivity, such as stereotypical behaviors, or the consequences of reduced interspecific interactions.
+
+%Verifier cette partie
+%verif si je la mets\subsection{Mesolithic-Neolithic Transition}
+%Some Late/Final Mesolithic specimens (6060-4995 BC) from Noyen-sur-Seine may show early captivity signals, though domestic animals only appeared in Northwestern Europe between late 6th-early 4th millennium BC. Recent DOMEXP data identified captivity markers in wild boar remains from Early Neolithic Fontbrégoua (~4750 BC).
+
+
+
+%verif si je la mets \subsection{Limitations}  
+%As previously mentioned, the actualistic referential framework used here has several limitations. The potential reduction in rooting behavior due to supplemental feeding in the Chambord and Compiègne wild boars may have altered their locomotion. Notably, the control population already occupies a relatively restricted space compared to the Chambord and Compiègne specimens. Moreover, classifying this fenced-forest population as "wild" or "free-ranging" is debatable, as there is no clear threshold defining the transition to non-wild status in non-human animals \cite{Orlando2021, Stepanoff2019}. However, no microanatomical effects of space reduction were observed in the control population compared to the captive specimens.  
+%The results suggest that microanatomical variations linked to space reduction become detectable between 10 ha (control group) and 0.3 ha (enclosure group). However, current hypotheses about Neolithic husbandry practices in Western Europe, based on isotopic data indicating a more herbivorous diet in pigs, favor extensive, semi-extensive, or mixed farming systems (i.e., integrated crop-livestock systems) \cite{Navarrete2017, Balasse2014, Bogaard2007}. Thus, the space reduction observed here (10 ha vs. 0.3 ha) might not be directly applicable to early Neolithic wild boars.  
+\section{Conclusion}
+This preliminary study focuses on the impact of captivity on the microanatomy of this short bone, devoid of muscle insertion, in a wild ungulate (\textit{Sus scrofa}). The microanatomy of the talus in wild boars is characterized by compact bone surrounding a relatively dense trabecular bone. While the distribution of compact bone does not appear to exhibit phenotypic variations related to life in captivity, the organization of trabecular bone differs between specimens that lived in captivity and those in the wild, as the former display denser bones with a less loose trabecular network. Furthermore, variations in microanatomy are not significantly associated with either sexual dimorphism or weight. They thus appear to be clearly linked to life in captivity. Additionally, some specimens from the 
+%à verifier
+Late/Final Mesolithic seem to show signs of life in captivity. 
+\section{Acknowledgements}
+
+
+\bibliographystyle{plain} 
+\bibliography{Sangliers} 
+\end{document}
