@@ -1,0 +1,12 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.pdf
+*.synctex.gz
+*.toc
+/illustrator/
+/images/
+/tableau/
+*.xlsx
+*.ods
